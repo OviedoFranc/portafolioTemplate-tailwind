@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://kit.fontawesome.com/f7ddb0b9e7.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="./style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+       <title>Portafolio Template</title>
+</head>
+<body class="bg-body text-white font-poppins">
+       <header class="py-10 md:py-0 md:pt-10">
+              <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24">
+                     <div class="text-lg">PortafolioTest</div>
+                     <div class="hidden md:flex  ">
+                            <ul class="flex xl:space-x-12 items-center">
+                                   <li><a class="text-selected-text px-3" href="#">Home</a></li>
+                                   <li><a class="px-3" href="#work">My Work</a></li>
+                                   <li><a class="px-3" href="#clients">Clients</a></li>
+                                   <li><button class="px-6 py-2 bg-theme font-bold" href="#contact">Contact Me</button></li>
+                            </ul>
+                     </div>
+                     <div class="md:hidden">
+                            <i class="fa-solid fa-bars text-2xl"></i>
+                     </div>
+              </div>
+       </header>
+
+       <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24">
+              <div class="flex flex-wrap md:flex-nowrap ">
+                     <nav class="md:inline-block lg:mr-24 lg:w-4 fixed hidden top-50 left-percentage xl:block">
+                            <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-37">
+                                   <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                                           <span class="bg-black px-2 py-y rounded-md ml-10 opacity-0">Home</span>
+                                   </a>
+                                   <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                                          <span class="bg-black px-2 py-y rounded-md ml-10 opacity-0">Work</span>
+                                   </a>
+                                  <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                                   <span class="bg-black px-2 py-y rounded-md ml-10 opacity-0">Clients</span>
+                                   </a>
+                                   <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                                          <span class="bg-black px-2 py-y rounded-md ml-10 opacity-0">Contact</span>
+                                   </a>
+                            </div>
+                     </nav>
+
+                     <div class="flex flex-wrap  lg:ml-20 justify-center md:justify-start max-w-xl  my-36">
+                            <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building <br> Beautiful web experiences.</h1>
+                            <div class="flex w-full justify-center md:justify-start">
+                                   <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                                          <div>
+                                                 <i class="fa-solid fa-eye"></i>
+                                          </div>
+                                         <span>Contact Me</span> 
+                                   </button>
+                            </div>
+                     </div>
+                     <img src="./img/image.jpg" alt="image" class="w-full h-full object-none mt-0 md:mt-8 absolute right-0 -z-1">
+              </div>
+       </div>
+
+       <!-- WORK -->
+       <div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg">
+              <section class="w-full px-8">
+                     <h2 id="work" class="secondary-title">My Work</h2>
+                     <p class="section-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quos quisquam? Illo, eaque rerum quasi aspernatur nostrum asperiores nihil ipsam pariatur quos cumque debitis voluptatibus quam delectus autem officiis tempore.</p>
+                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                            <img src="https://picsum.photos/300/200" alt="image" class="w-full">
+                     </div>
+              </section>
+       </div>
+
+       <!-- CLIENTS -->
+       <div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+              <section class="w-full">
+                     <h2 id="clients" class="secondary-title">Clients</h2>
+                     <p class="section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque soluta odio laboriosam molestias cum temporibus libero suscipit, impedit sapiente labore quae quasi voluptatibus facere. Ad minima iure laudantium eveniet.</p>
+                     
+                  
+                     <div class="space-y-12 my-16">
+                            <div class="flex flex-wrap lg:flex-nowrap w-full border border-nav p-12 lg:px-32 lg:py-20 lg:space-x-32 justify-center">
+                                      <!--Client logo -->
+                                      <div class="mb-6 lg:mb-0">
+                                          <i class="fa-solid fa-mug-hot text-5xl md:text-8xl"></i>
+                                      </div>
+                                      <!--Client info -->
+                                      <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                                             <h3 class="text-white text-3xl font-semibold">Music, inc.</h3>
+                                             <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-2">
+                                                    <div class="badge">UI/UX</div>
+                                                    <div class="badge">FrontEnd Development</div>
+                                             </div>
+                                           
+                                             <p class="text-secondary mt-10"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officiis porro deserunt animi repudiandae ipsum amet enim sapiente quis deleniti, dolore, commodi mollitia! Nemo voluptatibus ea non ad quas velit.</p>
+                                           
+                                     </div>
+
+                            </div>
+                     </div>
+              </section>
+       </div>
+       
+       <!-- CONTACT -->
+       <div class="container mt-32 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24">
+              <section class="w-full">
+                     <h2 id="contact" class="secondary-title">Contact</h2>
+                     <p class="section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque soluta odio laboriosam molestias cum temporibus libero suscipit, impedit sapiente labore quae quasi voluptatibus facere. Ad minima iure laudantium eveniet.</p>
+                     
+                     <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+                            <div class="space-y-12">
+                                   <div>
+                                          <label class="text-white block mb-6 text-xl font-bold">Name</label>
+                                          <input type="text" class="w-full border border-input-border bg-input px-4 py-2">
+                                   </div>
+                                   <div>
+                                          <label class="text-white block mb-6 text-xl font-bold">Email</label>
+                                          <input type="email" class="w-full border border-input-border bg-input px-4 py-2">
+                                   </div>
+                                   <div>
+                                          <label class="text-white block mb-6 text-xl font-bold">Message</label>
+                                          <input type="email" class="w-full border border-input-border bg-input px-4 py-2">
+                                   </div>
+                                   <button class="px-6 py-2 bg-theme font-bold">Send it!</button>
+                            </div>
+                            
+                            <div class="mt-10">
+                                   <!--Contact info-->
+                                   <p class="text-secondary mb-5">555-555-5555</p>
+                                   <a href="mailto:email@mydomain.com" class="text-secondary underline mt-20">email@mydomain.com</a>
+
+                                   <!--Social media-->
+                                   <div class="flex mt-20 mb-10 space-x-6">
+                                          <a href="#">
+                                                 <i class="w-8 h-8 lg:w-12 lg:h-12 text-4xl fa-brands fa-square-twitter"></i>
+                                          </a>
+                                          <a href="#">
+                                                 <i class="w-8 h-8 lg:w-12 lg:h-12 text-4xl fa-brands fa-facebook"></i>
+                                          </a>
+                                          <a href="#">
+                                                 <i class="w-8 h-8 lg:w-12 lg:h-12 text-4xl fa-brands fa-linkedin"></i>
+                                          </a>
+                                          
+                                   </div>
+                            </div>
+                     </div>
+              </section>
+       </div>
+
+       <script src="main.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
